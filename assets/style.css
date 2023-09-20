@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body{
+    background: purple !important;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    color: white !important;
+}
+h4{
+    color: #3c005a !important;
+}
+.container-fluid{
+    background-color: white;
+}
+select{
+    height: 38px;
+    border-radius: 5px;
+}
+label{
+    color: purple;
+}
+::placeholder{
+    color: #eeccff !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+}
+button{
+    padding: 15px;
+    border: purple;
+    background-color: purple;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+}

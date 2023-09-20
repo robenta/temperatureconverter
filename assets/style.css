@@ -2,16 +2,17 @@
 
 body{
     background: purple !important;
-    font-family: 'Open Sans', sans-serif;
 }
 h2{
     color: white !important;
+    font-family: 'Open Sans', sans-serif;
 }
-h4{
+h5{
     color: #3c005a !important;
 }
 .container{
     background-color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 select{
     height: 38px;
@@ -24,11 +25,11 @@ label{
     color: #eeccff !important;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: red;
+    color: #eeccff;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-    color: red;
+    color: #eeccff;
 }
 button{
     padding: 15px;

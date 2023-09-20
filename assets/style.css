@@ -37,6 +37,7 @@ button{
     color: white;
 }
 button:hover{
+    padding: 14px;
     background-color: white;
     color: purple;
     border: 1px solid purple;
